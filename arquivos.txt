@@ -1,0 +1,18 @@
+import sys
+'''
+arquivo=open('numeros.txt','w')
+for linha in range(1,101):
+    arquivo.write('%d\n'%linha)
+arquivo.close()
+'''
+'''
+arquivo=open('numeros.txt','r')
+for linha in arquivo.readlines():
+    print(linha)
+arquivo.close()
+'''
+'''
+print('numero de parametros: %d' % len(sys.argv))
+for n,p in enumerate(sys.argv):
+    print('parametro %d = %s' % (n,p))
+'''
